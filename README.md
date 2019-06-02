@@ -1,1 +1,2 @@
 # learnJavaScript
+like Java common
