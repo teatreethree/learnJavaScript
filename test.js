@@ -12,3 +12,18 @@ function fullname(){
 
     }
 }
+function check(){
+    document.getElementById("p1").innerHTML="edit";
+
+}
+function enter(){
+    var name = prompt("enter your name");
+    document.getElementById("p1").innerHTML=name ;
+}
+function testloop(){
+    var sumAll = 0;
+    for(var i = 0 ; i < arguments.length;i++){
+        sumAll+=arguments[i];
+    }
+    document.getElementById("p1").innerHTML= sumAll;
+}
