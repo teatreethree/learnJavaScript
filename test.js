@@ -27,3 +27,6 @@ function testloop(){
     }
     document.getElementById("p1").innerHTML= sumAll;
 }
+function test(str){
+    document.getElementById("p1").innerHTML= str;
+}
